@@ -1,0 +1,17 @@
+.icons {
+    display: flex;
+
+}
+
+.icons__list{
+  display: flex;
+}
+
+.icons__item {
+    margin-right: 8px;
+    width: 166px;
+    
+    &:last-child {
+        margin-right: 0;
+    }
+}

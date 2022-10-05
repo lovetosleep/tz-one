@@ -1,0 +1,10 @@
+.order-section {
+    position: relative;
+
+    &:before {
+        position: absolute;
+        top: -26px;
+        right: 28%;
+        content: url("../img/icons/pentagon.png");
+    }
+}
